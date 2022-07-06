@@ -1,0 +1,8 @@
+footer {
+   background-color: black;
+   h5{
+    color: nth($colores, 2 );
+    font-size:nth($font , 2 ) ;
+    text-decoration:nth($decoration , 1 ) ;
+   }
+}

@@ -1,0 +1,12 @@
+h1 { text-decoration: $decoration;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;}
+section{ 
+            display: flex;
+            flex-direction: column;
+        .imagenes{width: 100%;
+            } h3{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+            text-decoration:$decoration ;
+        } }

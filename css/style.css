@@ -1,0 +1,60 @@
+/*las variables*/
+/*Nesting o anidamiento*/
+header {
+  background-color: black;
+}
+header nav {
+  border: 5px dotted gray;
+  width: 100%;
+  padding: 10px;
+}
+header nav ul {
+  list-style: circle;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  /*& shift+6 xd*/
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  text-decoration: underline;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+section .imagenes {
+  width: 100%;
+}
+section h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+  text-decoration: underline;
+}
+
+footer {
+  background-color: black;
+}
+footer h5 {
+  color: grey;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: gray;
+}
+
+/*# sourceMappingURL=style.css.map */

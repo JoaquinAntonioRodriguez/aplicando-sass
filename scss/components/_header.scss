@@ -1,0 +1,22 @@
+header {
+    background-color: $bg-home;
+   nav{
+    border:$border-menu;
+    width: 100%;
+    padding: 10px;
+       ul{list-style: circle;
+           li{
+             a{
+               text-decoration: none;
+               color: white;
+                    /*& shift+6 xd*/
+        &:hover {
+    text-decoration: $decoration;
+                    }
+               }
+          }
+           
+        }
+    }
+        
+ }

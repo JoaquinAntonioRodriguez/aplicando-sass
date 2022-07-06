@@ -1,0 +1,25 @@
+
+/*las variables*/
+
+
+
+/*Nesting o anidamiento*/
+@import "base/variables";
+@import "components/header";
+@import "components/seccion";
+@import "components/pie-pagina";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: gray;
+}
+
+
+
+        
+    
+
