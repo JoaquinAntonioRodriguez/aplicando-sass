@@ -8,7 +8,9 @@
 @import "components/header";
 @import "components/seccion";
 @import "components/pie-pagina";
-
+@import "base/mapas";
+@import "base/extends";
+@import "base/mixin";
 *{
     margin: 0;
     padding: 0;

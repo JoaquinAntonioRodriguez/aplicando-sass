@@ -48,6 +48,78 @@ footer h5 {
   text-decoration: underline;
 }
 
+.standard {
+  color: rgb(138, 149, 151);
+  background-color: black;
+  border: 4px dotted white;
+  display: flex;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+  font-family: arial;
+}
+
+.premium {
+  display: flex;
+  color: rgb(138, 149, 151);
+  background: gold;
+  border: 4px dotted black;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+  font-family: Impact;
+  text-decoration: underline;
+}
+
+.instagram, .youtube, .linkedin, .facebook {
+  border: 3px solid transparent;
+  border-radius: 6px;
+  padding: 10px;
+  color: white;
+}
+
+.instagram, .youtube, .linkedin, .facebook {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  width: 20%;
+  margin: auto;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.linkedin {
+  background-color: #0e76a8;
+}
+
+.youtube {
+  background-color: red;
+}
+
+.instagram {
+  background-color: #FD1D1D;
+}
+
+.facebook {
+  transition: all 1s;
+}
+
+.youtube {
+  transition: all 4s;
+}
+
+.linkedin {
+  transition: all 3s;
+}
+
+.instagram {
+  transition: all 2s;
+}
+
 * {
   margin: 0;
   padding: 0;

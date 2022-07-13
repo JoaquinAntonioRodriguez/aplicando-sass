@@ -1,0 +1,43 @@
+%botones {
+    border:3px solid transparent;
+    border-radius: 6px;
+    padding: 10px;
+    color: white;
+    
+}
+%flexbox {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    width: 20%;
+    margin: auto;
+
+}
+.facebook {
+    background-color:#3b5998 ;
+    
+    @extend %botones;
+    @extend %flexbox;
+
+}
+.linkedin {
+    
+    background-color:#0e76a8 ;
+    @extend %botones;
+    @extend %flexbox;
+
+}
+.youtube {
+   
+    background-color:red ;
+    @extend %botones;
+    @extend %flexbox;
+
+}
+.instagram {
+    
+    background-color:#FD1D1D ;
+    @extend %botones;
+    @extend %flexbox;
+
+}

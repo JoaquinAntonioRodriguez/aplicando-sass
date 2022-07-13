@@ -1,0 +1,17 @@
+@mixin entren ($vacia){
+  
+   transition: $vacia;
+   
+}
+.facebook {
+    @include entren(all 1s)
+}
+.youtube {
+    @include entren(all 4s)
+}
+.linkedin{
+    @include entren(all 3s)
+}
+.instagram {
+    @include entren(all 2s)
+}

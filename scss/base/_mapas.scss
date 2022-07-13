@@ -1,0 +1,47 @@
+$standard: (
+    color-standard:rgb(138,149,151),
+    bg-standard:black ,
+    borde:4px dotted white,
+    flexbox-standard:flex,
+    tamaño:50%,
+    margen: auto,
+    tamaño-texto:30px,
+    texto-centrado:center,
+    tipografia:arial
+);
+$premium: ( 
+color-standar:rgb(138,149,151),
+bg-standard:gold,
+border-pointed:4px dotted black,
+flexbox-standard:flex,
+margen: auto,
+tamaño:50%,
+tamaño-texto:30px,
+texto-centrado:center,
+tipografia:Impact,
+subrrayado:underline
+)
+;
+.standard {
+    color: map-get($standard, color-standard);
+    background-color: map-get($standard, bg-standard);
+    border: map-get($standard, borde );
+    display: map-get($standard, flexbox-standard );
+    width: map-get($standard, tamaño );
+    margin: map-get($standard, margen );
+    text-align: map-get($standard , texto-centrado);
+    font-size: map-get($standard, tamaño-texto );
+    font-family:map-get($standard, tipografia);
+}
+.premium {
+    display: map-get($premium, flexbox-standard );
+    color: map-get($premium, color-standar );
+    background:map-get($premium, bg-standard );
+    border: map-get($premium, border-pointed );
+    width: map-get($premium, tamaño );
+    margin: map-get($premium, margen );
+    text-align: map-get($premium, texto-centrado);
+    font-size: map-get($premium, tamaño-texto );
+    font-family:map-get($premium, tipografia );
+    text-decoration: map-get($premium, subrrayado  );
+}
